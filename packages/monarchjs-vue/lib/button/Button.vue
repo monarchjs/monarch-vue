@@ -21,7 +21,7 @@ const { label } = reactive(props)
 <style scoped>
 button {
   padding: 0.6rem 1.25rem;
-  background-color: #0a0d46;
+  background-color: var(--mon-btn-primary, #646cff);
   border: 0;
 }
 button:hover {
