@@ -7,6 +7,16 @@
   "main": "./dist/monarch.umd.js",
   "module": "./dist/monarch.es.js",
   "types": "./dist/monarch.es.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/monarch.es.js",
+      "require": "./dist/monarch.umd.js"
+    },
+    "./monarch.css": {
+      "import": "./dist/monarch.css",
+      "require": "./dist/monarch.css"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",

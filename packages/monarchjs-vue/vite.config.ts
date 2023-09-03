@@ -29,7 +29,7 @@ export default defineConfig({
       external: ['vue'],
       output: {
         assetFileNames: (assetInfo) => {
-          if (assetInfo.name === 'main.css') return 'monarch.css'
+          if (assetInfo.name === 'index.css') return 'monarch.css'
           return assetInfo.name
         },
         exports: 'named',
