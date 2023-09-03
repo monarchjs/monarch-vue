@@ -1,26 +1,21 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
+  "name": "docus-starter",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^13.4.19",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.4.19",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "@nuxt-themes/docus": "^1.13.1",
+    "@nuxt/devtools": "^0.6.7",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/plausible": "^0.2.1",
+    "@types/node": "^20.4.0",
+    "eslint": "^8.44.0",
+    "nuxt": "^3.6.2"
   }
 }
